@@ -1,6 +1,6 @@
 const fs = require("fs").promises;
 
-const FILE_PATH = "../databases/db_arsip_buku.json";
+const FILE_PATH = "databases/db_arsip_buku.json";
 
 const readDatabase = async () => {
   try {
